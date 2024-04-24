@@ -1,1 +1,3 @@
-console.log(`${process.env.ENV_TEST} ${process.env.NODE_ENV}`)
+//load modules
+import "./mongoose";
+import "./express";
