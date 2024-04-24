@@ -1,0 +1,6 @@
+import { Router } from "express"
+
+//the [name] router
+export const [Name]Router = Router()
+
+//the [name] methods here
