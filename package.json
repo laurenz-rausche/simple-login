@@ -1,0 +1,11 @@
+{
+  "name": "simple-login",
+  "version": "0.0.0",
+  "description": "Just a simple JWT based login.",
+  "repository": "https://github.com/laurenz-rausche/simple-login.git",
+  "author": "Laurenz Rausche <laurenz@laurenz-rausche.de>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
