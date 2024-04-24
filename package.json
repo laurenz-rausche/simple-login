@@ -5,7 +5,14 @@
   "repository": "https://github.com/laurenz-rausche/simple-login.git",
   "author": "Laurenz Rausche <laurenz@laurenz-rausche.de>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "console:clear": "node -e \"console.clear()\"",
+    "dev:client": "cd client && npm run dev:start",
+    "dev:server": "cd server && npm run dev:start",
+    "dev:remove": "rimraf node_modules yarn.lock package-lock.json"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
 }

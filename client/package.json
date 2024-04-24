@@ -7,8 +7,9 @@
   "author": "Laurenz Rausche <laurenz@laurenz-rausche.de>",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build"
+    "console:clear": "node -e \"console.clear()\"",
+    "dev:remove": "rimraf node_modules yarn.lock package-lock.json",
+    "dev:start": "npm run console:clear && cross-env NODE_ENV=development vite"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -18,6 +19,8 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
