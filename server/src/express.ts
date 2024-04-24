@@ -1,6 +1,6 @@
 import cors from "cors";
 import express from "express";
-import { log } from "@root/logger";
+import { log } from "@~/logger";
 import { IndexRouter } from "@Routers/IndexRouter";
 
 //init express app
