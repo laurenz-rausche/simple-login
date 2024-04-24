@@ -1,5 +1,5 @@
 function App() {
-  return <p className="text-red-600">simple-login</p>;
+  return <button className="btn btn-primary">simple-login</button>;
 }
 
 export default App;
