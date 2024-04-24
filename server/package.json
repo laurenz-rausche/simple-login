@@ -1,0 +1,22 @@
+{
+  "name": "simple-login_server",
+  "version": "0.0.0",
+  "description": "Just a simple JWT based login.",
+  "repository": "https://github.com/laurenz-rausche/simple-login.git",
+  "author": "Laurenz Rausche <laurenz@laurenz-rausche.de>",
+  "license": "MIT",
+  "scripts": {
+    "console:clear": "node -e \"console.clear()\"",
+    "dev:remove": "rimraf node_modules yarn.lock package-lock.json",
+    "dev:start": "npm run console:clear && cross-env NODE_ENV=development ts-node-dev --require=dotenv/config --respawn --clear --watch .env src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "rimraf": "^5.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
