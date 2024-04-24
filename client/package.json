@@ -9,7 +9,7 @@
   "scripts": {
     "console:clear": "node -e \"console.clear()\"",
     "dev:remove": "rimraf node_modules yarn.lock package-lock.json",
-    "dev:start": "npm run console:clear && cross-env NODE_ENV=development vite"
+    "dev:start": "npm run console:clear && cross-env NODE_ENV=development vite --host"
   },
   "dependencies": {
     "react": "^18.2.0",
