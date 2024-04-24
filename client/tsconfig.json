@@ -18,7 +18,17 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Custom Imports */
+    "baseUrl": ".",
+    "paths": {
+      "@~/*": ["src/*"],
+      "@Components/*": ["src/Components/*"],
+      "@Contexts/*": ["src/Contexts/*"],
+      "@Layouts/*": ["src/Layouts/*"],
+      "@Pages/*": ["src/Pages/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
